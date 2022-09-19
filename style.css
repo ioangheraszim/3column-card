@@ -1,0 +1,53 @@
+/* Color Variables */
+:root {
+    /* Primary colors */
+    --bright-orange: #e38826;
+    --dark-cyan: #006970;
+    --very-dark-cyan: #004241;
+    /* Neutral Colors */
+    --very-light-gray: #f2f2f2;
+    --white: #fff; /* make opacity 0.7 */
+}
+
+/* Reset Rules */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: var(--very-light-gray);
+}
+
+.container {
+    border: 1px solid red;
+    width: 375px;    
+}
+
+.sedan-card {    
+    padding: 100px 0;
+    background: var(--bright-orange);
+}
+
+.suv-card {
+    padding: 100px 0;
+    background-color: var(--dark-cyan);
+}
+
+.luxury-card {
+    padding: 100px 0;
+    background-color: var(--very-dark-cyan)
+}
+
+/* Desktop View */
+
+@media (min-width: 36rem) {
+
+}
