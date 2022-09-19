@@ -34,33 +34,33 @@ body {
 }
 
 .container {
-    margin: 100px;    
-    width: 330px;    
+    margin: 6.25rem;    
+    width: 20.625rem;    
 }
 
 .sedan-card {   
-    border-radius: 10px 10px 0 0;
-    padding: 40px;
+    border-radius: 0.625rem 0.625rem 0 0;
+    padding: 2.5rem;
     background: var(--bright-orange);
 }
 
 .suv-card {
-    padding: 40px;
+    padding: 2.5rem;
     background-color: var(--dark-cyan);
 }
 
 .luxury-card {
-    border-radius: 0 0 10px 10px;
-    padding: 40px;
+    border-radius: 0 0 0.625rem 0.625rem;
+    padding: 2.5rem;
     background-color: var(--very-dark-cyan);
 }
 
 img {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: var(--white);
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -81,9 +81,9 @@ button {
     cursor: pointer;
     border: none;
     color: var(--bright-orange);
-    margin-top: 30px;    
-    padding: 15px 35px;
-    border-radius: 500px;
+    margin-top: 1.875rem;
+    padding: 0.938rem 2.188rem;
+    border-radius: 31.25rem;
 }
 
 .luxury-card button {
@@ -98,21 +98,21 @@ button {
     color: var(--white);
     background-color: var(--dark-cyan);
     border: 1px solid var(--white);
-    padding: 14px 39px;
+    padding: 0.875rem 2.438rem;
 }
 
 .sedan-card button:hover{
     color: var(--white);
     background-color: var(--bright-orange);
     border: 1px solid var(--white);
-    padding: 14px 39px;
+    padding: 0.875rem 2.438rem;
 }
 
 .luxury-card button:hover{
     color: var(--white);
     background-color: var(--very-dark-cyan);
     border: 1px solid var(--white);
-    padding: 14px 39px;
+    padding: 0.875rem 2.438rem;
 }
 
 /* Desktop View */
@@ -120,18 +120,18 @@ button {
 @media (min-width: 36rem) {
     .container {
         flex-direction: row;
-        width: 925px;
+        width: 57.813rem;
     }
     
     .sedan-card {   
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 0.625rem 0px 0px 0.625rem;
     }
 
     .luxury-card {
-        border-radius: 0px 10px 10px 0px;       
+        border-radius: 0px 0.625rem 0.625rem 0px;       
     }
 
     button {
-        margin-top: 100px;
+        margin-top: 6.25rem;
     }
 }
